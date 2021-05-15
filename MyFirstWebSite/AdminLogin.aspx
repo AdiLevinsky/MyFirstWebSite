@@ -3,7 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <br />
     <h2>התחברות מהירה - מנהל אתר</h2>
 
         <div class="center" style="height:28em; width: 35%;">

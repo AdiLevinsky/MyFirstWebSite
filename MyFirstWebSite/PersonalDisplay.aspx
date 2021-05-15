@@ -6,12 +6,12 @@
     <div style="height:33em;">
         <h2>תצוגה מותאמת אישית</h2>
         <br />
-        <ul class="stickyNote center" style="width:40em; transform: rotate(-1deg);">
+        <ul class="stickyNote center" style="width:40em; height: 21em; transform: rotate(-1deg);">
             <img src="/images/washi-tape.png" class="stickyTape" style="left:90px;"/>
             <h3>תצוגה מותאמת אישית כוללת את התוספות הבאות:</h3>
             <table>
                 <tr>
-                    <td width="10%"></td>
+                    <td style="width:10%"></td>
                     <td>
                         <li>קראו את קובץ ההסברים, וממשו מתוכו את סעיפים 5.3 - 5.7:</li><br />
                         <li>5.3 - הוספת קובץ Global.aspx + הוספת מונה מבקרים באתר</li><br />

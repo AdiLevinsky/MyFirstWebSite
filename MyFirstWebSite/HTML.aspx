@@ -33,7 +33,7 @@
             <img src="/Images/washi-tape.png" class="stickyTapeSmall" style="left:160px;"/>
             <h3>סרטון</h3>
             <p style="text-align:center"><iframe style="vertical-align:top;" width="560" height="315" src="https://www.youtube.com/embed/Msyl-stMklk"> </iframe></p>
-            <h4>על מנת לשלב סרטון מיוטיוב באתר שלכם, עליכם:</h4>
+            <h4>על מנת לשלב סרטון מ- YouTube באתר שלכם:</h4>
             <ol>
                 <li>היכנסו ל- YouTube ומצאו את הסרטון המתאים לכם.</li>
                 <li>לחצו על הכפתור <b>SHARE</b>.</li>

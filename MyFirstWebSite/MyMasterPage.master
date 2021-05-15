@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title>My First Website</title>
-    <link rel="shortcut icon" href="/Images/logo-icon.png" />
+    <link rel="shortcut icon" href="/Images/logo-icon.png" style="width:32px; height:32px;" />
 
     <!-- stylesheet -->
     <link rel="stylesheet" type="text/css" href="MyCSS.css" />
@@ -43,23 +43,27 @@
                 <!-- תצוגה מותאמת אישית ומונה מבקרים -->
                 <h4 style="color: white;">
                     <%Response.Write(" שלום " + Session["userName"] ); %> ,<br />
-                    <%if (Session["userName"] == "אורח"){%>
+                    
+                    <%if ((string)Session["userName"] == "אורח"){%>
                     [<a href="Registration.aspx">הרשמה</a>]
                     [<a href="Login.aspx">התחברות</a>] <br />
                     [<a href="AdminLogin.aspx">התחברות מנהל</a>] 
-                    <%}else if (Session["userName"] == "מנהל"){%>
+                    
+                    <%}else if ((string)Session["userName"] == "מנהל"){%>
                     [<a href="AdminHome.aspx">דף הבית מנהל</a>]
                     [<a href="Logout.aspx">התנתקות</a>]
+                   
                     <%}else{%>
                     [<a href="Logout.aspx">התנתקות</a>]
                     <%}%>
-                    <br /><br />
-                    <%Response.Write("עד עכשיו נכנסו לאתר : " + Application["counter"]); %>
+                    
+                    <br />
+                    <p style="font-size:small;"><%Response.Write("עד עכשיו נכנסו לאתר : " + Application["counter"]); %></p>
                 </h4>
             </td>
         </tr>
 
-        <!-- Main content area -->
+        <!-- Main Content Area -->
         <tr>
             <td></td>
             <td>
@@ -71,6 +75,7 @@
             <td></td>
         </tr>
 
+        <!-- Footer -->
         <tr dir="ltr" style="background-color:black; text-align:left; vertical-align:central;">
             <td></td>
             <td><br />
