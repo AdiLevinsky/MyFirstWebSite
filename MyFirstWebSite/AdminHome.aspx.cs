@@ -11,7 +11,6 @@ namespace MyFirstWebSite
     public partial class AdminHome : System.Web.UI.Page
     {
         public string adm = "";
-
         protected void Page_Load(object sender, EventArgs e)
         {
             string dbFileName = "MyFirstDB.accdb"; 
@@ -54,6 +53,7 @@ namespace MyFirstWebSite
                 adm += "<th colspan='2'>פעולות</th>";
                 adm += "</tr></thead>";
                 adm += "<tbody>";
+
                 for (int i = 0; i < length; i++) // הכנסת הנתונים לטבלה - כל איטרציה היא רשומה מבסיס הנתונים של משתמש רשום
                 {
                     adm += "<tr>";

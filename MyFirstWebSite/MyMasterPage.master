@@ -29,11 +29,12 @@
             <td>
                 <table style="width:100%;">
                     <tr class="topnav">
-                        <th><a href="HTML.aspx">HTML</a></th>
-                        <th><a href="CSS.aspx">CSS</a></th>                      
-                        <th><a href="Javascript.aspx">Javascript</a></th>
-                        <th><a href="PersonalDisplay.aspx">תצוגה מותאמת אישית</a></th>
-                        <th><a href="MembersOnly.aspx">דף למשתמשים רשומים בלבד</a></th>
+                        <th><a href="HTML.aspx"             <% if (Request.FilePath.IndexOf("HTML.aspx") != -1){ %>             class="active" <%}%>>HTML</a></th>
+                        <th><a href="CSS.aspx"              <% if (Request.FilePath.IndexOf("CSS.aspx") != -1) { %>             class="active" <%}%>>CSS</a></th>                      
+                        <th><a href="Javascript.aspx"       <% if (Request.FilePath.IndexOf("Javascript.aspx") != -1){ %>       class="active" <%}%>>Javascript</a></th>
+                        <th><a href="PersonalDisplay.aspx"  <% if (Request.FilePath.IndexOf("PersonalDisplay.aspx") != -1){ %>  class="active" <%}%>>תצוגה מותאמת אישית</a></th>
+                        <th><a href="MembersOnly.aspx"      <% if (Request.FilePath.IndexOf("MembersOnly.aspx") != -1 || Request.FilePath.IndexOf("Result.aspx") != -1){ %>      class="active" <%}%>>דף למשתמשים רשומים בלבד</a></th>
+                        <th><a href="Links.aspx"            <% if (Request.FilePath.IndexOf("Links.aspx") != -1){ %>            class="active" <%}%>>קישורים חשובים</a></th>
                     </tr>
                 </table>
             </td>
