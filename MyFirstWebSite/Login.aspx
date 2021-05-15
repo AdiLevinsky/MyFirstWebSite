@@ -47,7 +47,7 @@
                     </tr>
                     <tr>
                         <td style="text-align:center; font-size:small;"><br />
-                            עוד לא נרשמת לאתר? <a href="Registration.aspx">לחץ כאן</a> כדי להירשם עכשיו
+                            עוד לא נרשמת לאתר? <a href="RegistrationDB.aspx">לחץ כאן</a> כדי להירשם עכשיו
                         </td>
                     </tr>
                 </table>
