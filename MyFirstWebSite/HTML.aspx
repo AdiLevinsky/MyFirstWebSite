@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     
-    <h2>תגיות HTML</h2>
+    <h2 id="ancorUpLinkId">תגיות HTML</h2>
    
     <ul class="ulSticky">
         <li class="liSticky">
@@ -26,10 +26,10 @@
             <img src="/Images/washi-tape.png" class="stickyTapeSmall" />
             <h3>קישור עוגן</h3>
             <p>קישור למיקום פנימי בתוך אותו הדף.</p>
-            <p style="font-size:small;">כדי להגיע לתחתית העמוד לחצו <a href="#ancorLinkId">כאן</a>.</p>
+            <p style="font-size:small;">כדי להגיע לתחתית העמוד לחצו <a href="#ancorBottomLinkId">כאן</a>.</p>
         </li>
 
-        <li class="liSticky" style="height:35em; width:45em;" >
+        <li class="liSticky" style="height:33em; width:35em;" >
             <img src="/Images/washi-tape.png" class="stickyTapeSmall" style="left:160px;"/>
             <h3>סרטון</h3>
             <p style="text-align:center"><iframe style="vertical-align:top;" width="560" height="315" src="https://www.youtube.com/embed/Msyl-stMklk"> </iframe></p>
@@ -41,12 +41,14 @@
                 <li>העתיקו את קוד ה- HTML שמוצג על המסך לתוך הדף שלכם.</li>
             </ol>
         </li>
-        
+    </ul>
+    
+    <ul class="ulSticky">
         <li class="liSticky" style="height:18em; width:17em;"  >
             <img src="/Images/washi-tape.png" class="stickyTapeSmall" style="left:-30px;"/>
             <h3>טבלה</h3>
             כדאי להשתמש בטבלה גם כשרוצים לארגן את האלמנטים בדף בצורה מיושרת<br /><br />
-            <table border="1" id="ancorLinkId">
+            <table border="1" >
                 <thead>
                     <th>שם התלמיד</th>
                     <th>נושא האתר</th>
@@ -54,7 +56,7 @@
                 </thead>
                 <tr>
                     <td>אבי</td>
-                    <td>הפועל ת"א</td>
+                    <td>כדורסל</td>
                     <td>בינונית</td>
                 </tr>
                 <tr>
@@ -76,5 +78,6 @@
            
         </li>
     </ul>
+    <a href="#ancorUpLinkId" id="ancorBottomLinkId">לתחילת הדף</a>
 </asp:Content>
 

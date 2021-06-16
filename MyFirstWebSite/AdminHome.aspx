@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <div style="height:37em;">
+    <div style="width:90%;">
         
         <h2>פרטי המשתמשים הרשומים לאתר</h2>
         <h3>סינון תוצאות חיפוש לפי:</h3>

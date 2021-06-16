@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="center" style="height:34em; width:80%;">
+    <div class="center" style="width:80%;">
         
         <h2>ברוכים הבאים!</h2>
         

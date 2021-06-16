@@ -5,7 +5,7 @@
 
     <h2>התחברות מהירה</h2>
     
-    <div class="center" style="height:28em; width: 35%;">
+    <div class="center" style="width: 25%;">
 
         <div class="box">
             
@@ -46,7 +46,7 @@
                     </tr>
                     <tr>
                         <td style="text-align:center; font-size:small;"><br />
-                            עוד לא נרשמת לאתר? <a href="RegistrationDB.aspx">לחץ כאן</a> כדי להירשם עכשיו
+                            עוד לא נרשמת לאתר? <a href="RegistrationDB.aspx">הרשם עכשיו</a>!
                         </td>
                     </tr>
                 </table>

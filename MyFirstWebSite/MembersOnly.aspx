@@ -3,9 +3,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div style="height:31em">
-        <br /><h2>אתם רואים את הדף כי אתם מחוברים לאתר</h2><br />
+    <br /><h2>אתם רואים את הדף כי אתם מחוברים לאתר</h2><br />
         
+    <div style="height:31em">
 
         <div class="box center" style="height:15em;">
             <br />

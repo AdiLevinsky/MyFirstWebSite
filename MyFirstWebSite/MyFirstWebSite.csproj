@@ -73,6 +73,7 @@
     <Content Include="App_Data\MyFirstDB.accdb" />
     <Content Include="CSS.aspx" />
     <Content Include="AdminDeleteUser.aspx" />
+    <Content Include="Files\AccessDatabaseEngine.exe" />
     <Content Include="Global.asax" />
     <Content Include="HomePage.aspx" />
     <Content Include="HTML.aspx" />
@@ -231,7 +232,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MyMasterPage.master" />
-    <Content Include="Docs\PesonalDisplay_Global_Logout.pdf" />
+    <Content Include="Files\PesonalDisplay_Global_Logout.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

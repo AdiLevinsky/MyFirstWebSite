@@ -4,12 +4,10 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-     <div style="height:33em">
-        <h2>עדכון פרטי משתמש רשום</h2>
+    <h2>עדכון פרטי משתמש רשום</h2>
         
-        <div class="box center" style="width: 45em; height:21em;">
-            <%=edit %>
-        </div>
+    <div class="box center" style="width: 45em; height:21em;">
+        <%=edit %>
     </div>
 
 </asp:Content>

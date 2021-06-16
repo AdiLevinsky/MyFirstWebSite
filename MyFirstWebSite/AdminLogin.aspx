@@ -4,8 +4,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <h2>התחברות מהירה - מנהל אתר</h2>
-
-        <div class="center" style="height:28em; width: 35%;">
+    <br />
+        <div class="center" style="width: 25%;">
 
         <div class="box" >
             
